@@ -2,4 +2,6 @@ import { http } from './http';
 import "./websocket/client";
 import "./websocket/admin";
 
-http.listen(3333, () => console.log('Server is running'))
+const port = process.env.PORT
+
+http.listen(port, () => console.log(`Server running on ${port}`))

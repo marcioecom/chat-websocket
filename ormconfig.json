@@ -3,7 +3,7 @@
     "host": "localhost",
     "port": 5432,
     "username": "marcio",
-    "password": "password",
+    "password": "pass",
     "database": "chat",
     "logging": false,
     "migrations": [
